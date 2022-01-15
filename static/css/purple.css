@@ -1,0 +1,22 @@
+:root{
+	--mainColor: #463448;
+	--secondaryColor: #382a3f;
+
+	--borderColor: #1d1520;
+
+	--themeDotBorder: #fff;
+
+	--previewBg: rgb(29, 21, 32, 0.8);
+	--previewShadow: #2b202f;
+
+	--mainText: #fff;
+	--secondaryText: #eeeeee;
+
+	--btnColor:#8534a3;
+	--hoverColor: #8534a3;
+
+	--postColor: #564059;
+	--postTitle: #fff;
+	--postText: #fff;
+
+}

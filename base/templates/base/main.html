@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>Chinyere Unamba</title>
+	<meta name="viewport" content="width-device, initial-scale=1, maximum-scale=1, minimum-scale=1" charset="utf-8">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400">
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'css/default.css' %}">
+	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+
+	{% include 'base/navbar.html' %}
+
+	{% block content %}
+	<!-- Content Goes here -->
+	{% endblock %}
+</body>
+</html>

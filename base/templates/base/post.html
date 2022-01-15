@@ -1,0 +1,32 @@
+{% extends 'base/main.html' %}
+{% load static %}
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+<link rel="stylesheet" type="text/css" href="
+{% static 'js/bootstrap.min.js' %}">
+<div class="main-container">
+
+<style type="text/css">
+	img{
+		max-width: 100%;
+		object-fit: cover;
+	}
+</style>
+
+<div class="main-container">
+	<div class="post-wrapper">
+		<div class="headline">
+			<h1>{{post.headline}}</h1>
+		</div>
+		<div class="img">
+			<img src="{{post.thumbnail.url}}">
+		</div>
+		
+		<h4>{{post.sub_headline}}</h4>
+
+		<p>{{post.body|safe}}</p>
+	</div>
+</div>
+
+{% endblock %}

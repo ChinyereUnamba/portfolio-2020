@@ -1,0 +1,25 @@
+
+:root{
+	--mainColor: #152028;
+	--secondaryColor: #192734;
+
+	--borderColor: #164056;
+
+	--themeDotBorder: #fff;
+
+	--previewBg: rgb(25, 39, 53, 0.8);
+	--previewShadow: #111921;
+
+	--mainText: #fff;
+	--secondaryText: #eeeeee;
+
+	--btnColor:#17a2b8;
+	--hoverColor: #17a2b8;
+
+	--postColor: #226486;
+	--postTitle: #fff;
+	--postText: #fff;
+
+
+	--aTag: #fff;
+}
